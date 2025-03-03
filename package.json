@@ -4,11 +4,8 @@
 		"email": "baptiste@pillot.fr"
 	},
 	"dependencies": {
-		"@itrocks/action": "latest",
-		"@itrocks/core-responses": "latest",
-		"@itrocks/route": "latest",
-		"pdfkit": "^0.15",
-		"svg-to-pdfkit": "^0.1"
+		"@itrocks/decorator": "latest",
+		"@itrocks/class-type": "latest"
 	},
 	"description": "An @EmailAddress() decorator to validate that a property contains a valid email address",
 	"devDependencies": {
@@ -44,5 +41,5 @@
 		"build": "tsc -p tsconfig.json"
 	},
 	"types": "./cjs/email-address.d.ts",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
