@@ -38,8 +38,8 @@
 		"url": "git+https://github.com/itrocks-ts/email-address.git"
 	},
 	"scripts": {
-		"build": "tsc -p tsconfig.json"
+		"build": "tsc"
 	},
 	"types": "./cjs/email-address.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }
