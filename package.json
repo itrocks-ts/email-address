@@ -27,6 +27,7 @@
 		"backend",
 		"decorator",
 		"email",
+		"email address",
 		"it.rocks",
 		"property",
 		"validation"
@@ -41,5 +42,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/email-address.d.ts",
-	"version": "0.0.6"
+	"version": "0.0.7"
 }
