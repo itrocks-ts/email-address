@@ -1,5 +1,7 @@
-import { KeyOf, ObjectOrType }   from '@itrocks/class-type'
-import { decorate, decoratorOf } from '@itrocks/decorator/property'
+import { KeyOf }        from '@itrocks/class-type'
+import { ObjectOrType } from '@itrocks/class-type'
+import { decorate }     from '@itrocks/decorator/property'
+import { decoratorOf }  from '@itrocks/decorator/property'
 
 const EMAIL_ADDRESS = Symbol('email-address')
 
