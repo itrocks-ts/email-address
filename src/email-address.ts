@@ -1,7 +1,7 @@
 import { KeyOf, ObjectOrType }   from '@itrocks/class-type'
 import { decorate, decoratorOf } from '@itrocks/decorator/property'
 
-const EMAIL_ADDRESS = Symbol('email')
+const EMAIL_ADDRESS = Symbol('email-address')
 
 export function EmailAddress<T extends object>(value = true)
 {
