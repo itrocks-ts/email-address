@@ -1,4 +1,3 @@
-import { KeyOf }        from '@itrocks/class-type'
 import { ObjectOrType } from '@itrocks/class-type'
 import { decorate }     from '@itrocks/decorator/property'
 import { decoratorOf }  from '@itrocks/decorator/property'
@@ -10,7 +9,7 @@ export function EmailAddress<T extends object>(value = true)
 	return decorate<T>(EMAIL_ADDRESS, value)
 }
 
-export function emailAddressOf<T extends object>(target: ObjectOrType<T>, property: KeyOf<T>)
+export function emailAddressOf<T extends object>(target: ObjectOrType<T>, property: keyof T)
 {
 	return decoratorOf(target, property, EMAIL_ADDRESS, false)
 }
